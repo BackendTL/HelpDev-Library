@@ -1,6 +1,6 @@
 <?php
 
-namespace ITSoft\HelpDev\Enum;
+namespace HelpDev\Enum;
 
 enum PermissionEnum: string
 {
