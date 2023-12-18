@@ -1,0 +1,30 @@
+{
+    "name": "helpdev/library",
+    "type": "library",
+    "description": "Common Container Interface",
+    "keywords": ["helpdev"],
+    "homepage": "https://github.com/AlexBerezaTL/HelpDev-Library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex",
+            "homepage": "https://github.com/AlexBerezaTL"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/AlexBerezaTL"
+    },
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "IT-Soft\\HelpDev\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
