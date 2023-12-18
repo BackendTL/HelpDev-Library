@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "IT-Soft\\HelpDev\\": "src/"
+            "ITSoft\\HelpDev\\": "src/"
         }
     },
     "extra": {
