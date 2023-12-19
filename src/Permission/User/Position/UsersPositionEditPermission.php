@@ -6,16 +6,16 @@ use HelpDev\Permission\PermissionInterface;
 
 class UsersPositionEditPermission implements PermissionInterface
 {
-    private string $key = '1.3.2';
-    private string $description = 'Позволяет редактировать должности';
+    public const KEY = '1.3.2';
+    public const DESCRIPTION = 'Позволяет редактировать должности';
 
-    public function getKey(): string
+    public static function getKey(): string
     {
-        return $this->key;
+        return self::KEY;
     }
 
-    public function getDescription(): string
+    public static function getDescription(): string
     {
-        return $this->description;
+        return self::DESCRIPTION;
     }
 }

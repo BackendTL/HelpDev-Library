@@ -6,16 +6,16 @@ use HelpDev\Permission\PermissionInterface;
 
 class UsersApiTokenRemovePermissionsPermission implements PermissionInterface
 {
-    private string $key = '1.5.4';
-    private string $description = 'Позволяет удалить разрешения для АПИ токена';
+    public const KEY = '1.5.4';
+    public const DESCRIPTION = 'Позволяет удалить разрешения для АПИ токена';
 
-    public function getKey(): string
+    public static function getKey(): string
     {
-        return $this->key;
+        return self::KEY;
     }
 
-    public function getDescription(): string
+    public static function getDescription(): string
     {
-        return $this->description;
+        return self::DESCRIPTION;
     }
 }

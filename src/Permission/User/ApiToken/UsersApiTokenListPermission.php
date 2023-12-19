@@ -6,16 +6,16 @@ use HelpDev\Permission\PermissionInterface;
 
 class UsersApiTokenListPermission implements PermissionInterface
 {
-    private string $key = '1.5.1';
-    private string $description = 'Позволяет просматривать список АПИ токены';
+    public const KEY = '1.5.1';
+    public const DESCRIPTION = 'Позволяет просматривать список АПИ токены';
 
-    public function getKey(): string
+    public static function getKey(): string
     {
-        return $this->key;
+        return self::KEY;
     }
 
-    public function getDescription(): string
+    public static function getDescription(): string
     {
-        return $this->description;
+        return self::DESCRIPTION;
     }
 }

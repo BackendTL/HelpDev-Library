@@ -6,16 +6,16 @@ use HelpDev\Permission\PermissionInterface;
 
 class UtilityTocaJsonGeneratorListOwnPermission implements PermissionInterface
 {
-    private string $key = '2.2.3';
-    private string $description = 'Позволяет просматривать и скачивать результирующие архивы всех генераций Json для Toca';
+    public const KEY = '2.2.3';
+    public const DESCRIPTION = 'Позволяет просматривать и скачивать результирующие архивы всех генераций Json для Toca';
 
-    public function getKey(): string
+    public static function getKey(): string
     {
-        return $this->key;
+        return self::KEY;
     }
 
-    public function getDescription(): string
+    public static function getDescription(): string
     {
-        return $this->description;
+        return self::DESCRIPTION;
     }
 }

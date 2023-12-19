@@ -6,16 +6,16 @@ use HelpDev\Permission\PermissionInterface;
 
 class UtilityMetadataCleanerRestartPermission implements PermissionInterface
 {
-    private string $key = '2.1.4';
-    private string $description = 'Позволяет перезапустить чистку';
+    public const KEY = '2.1.4';
+    public const DESCRIPTION = 'Позволяет перезапустить чистку';
 
-    public function getKey(): string
+    public static function getKey(): string
     {
-        return $this->key;
+        return self::KEY;
     }
 
-    public function getDescription(): string
+    public static function getDescription(): string
     {
-        return $this->description;
+        return self::DESCRIPTION;
     }
 }

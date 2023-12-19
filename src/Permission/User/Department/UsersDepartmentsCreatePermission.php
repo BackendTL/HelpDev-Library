@@ -6,16 +6,16 @@ use HelpDev\Permission\PermissionInterface;
 
 class UsersDepartmentsCreatePermission implements PermissionInterface
 {
-    private string $key = '1.2.1';
-    private string $description = 'Позволяет создать новый отдел';
+    public const KEY = '1.2.1';
+    public const DESCRIPTION = 'Позволяет создать новый отдел';
 
-    public function getKey(): string
+    public static function getKey(): string
     {
-        return $this->key;
+        return self::KEY;
     }
 
-    public function getDescription(): string
+    public static function getDescription(): string
     {
-        return $this->description;
+        return self::DESCRIPTION;
     }
 }

@@ -6,16 +6,16 @@ use HelpDev\Permission\PermissionInterface;
 
 class UsersApiTokenBlockPermission implements PermissionInterface
 {
-    private string $key = '1.5.5';
-    private string $description = 'Позволяет заблокировать АПИ токен';
+    public const KEY = '1.5.5';
+    public const DESCRIPTION = 'Позволяет заблокировать АПИ токен';
 
-    public function getKey(): string
+    public static function getKey(): string
     {
-        return $this->key;
+        return self::KEY;
     }
 
-    public function getDescription(): string
+    public static function getDescription(): string
     {
-        return $this->description;
+        return self::DESCRIPTION;
     }
 }

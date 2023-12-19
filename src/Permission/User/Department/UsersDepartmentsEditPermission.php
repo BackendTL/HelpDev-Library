@@ -6,16 +6,16 @@ use HelpDev\Permission\PermissionInterface;
 
 class UsersDepartmentsEditPermission implements PermissionInterface
 {
-    private string $key = '1.2.3';
-    private string $description = 'Позволяет редактировать отделы';
+    public const KEY = '1.2.3';
+    public const DESCRIPTION = 'Позволяет редактировать отделы';
 
-    public function getKey(): string
+    public static function getKey(): string
     {
-        return $this->key;
+        return self::KEY;
     }
 
-    public function getDescription(): string
+    public static function getDescription(): string
     {
-        return $this->description;
+        return self::DESCRIPTION;
     }
 }

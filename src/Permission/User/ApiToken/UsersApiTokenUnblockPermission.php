@@ -6,16 +6,16 @@ use HelpDev\Permission\PermissionInterface;
 
 class UsersApiTokenUnblockPermission implements PermissionInterface
 {
-    private string $key = '1.5.6';
-    private string $description = 'Позволяет разблокировать АПИ токен';
+    public const KEY = '1.5.6';
+    public const DESCRIPTION = 'Позволяет разблокировать АПИ токен';
 
-    public function getKey(): string
+    public static function getKey(): string
     {
-        return $this->key;
+        return self::KEY;
     }
 
-    public function getDescription(): string
+    public static function getDescription(): string
     {
-        return $this->description;
+        return self::DESCRIPTION;
     }
 }

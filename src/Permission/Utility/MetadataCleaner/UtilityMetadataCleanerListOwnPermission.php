@@ -6,16 +6,16 @@ use HelpDev\Permission\PermissionInterface;
 
 class UtilityMetadataCleanerListOwnPermission implements PermissionInterface
 {
-    private string $key = '2.1.3';
-    private string $description = 'Позволяет просматривать и скачивать только собственные запросы на чистку';
+    public const KEY = '2.1.3';
+    public const DESCRIPTION = 'Позволяет просматривать и скачивать только собственные запросы на чистку';
 
-    public function getKey(): string
+    public static function getKey(): string
     {
-        return $this->key;
+        return self::KEY;
     }
 
-    public function getDescription(): string
+    public static function getDescription(): string
     {
-        return $this->description;
+        return self::DESCRIPTION;
     }
 }

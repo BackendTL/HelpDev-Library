@@ -6,16 +6,16 @@ use HelpDev\Permission\PermissionInterface;
 
 class UsersDepartmentsListPermission implements PermissionInterface
 {
-    private string $key = '1.2.2';
-    private string $description = 'Позволяет получать список отделов';
+    public const KEY = '1.2.2';
+    public const DESCRIPTION = 'Позволяет получать список отделов';
 
-    public function getKey(): string
+    public static function getKey(): string
     {
-        return $this->key;
+        return self::KEY;
     }
 
-    public function getDescription(): string
+    public static function getDescription(): string
     {
-        return $this->description;
+        return self::DESCRIPTION;
     }
 }

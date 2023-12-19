@@ -6,16 +6,16 @@ use HelpDev\Permission\PermissionInterface;
 
 class UsersUserListPermission implements PermissionInterface
 {
-    private string $key = '1.1.3';
-    private string $description = 'Позволяет заблокировать любого пользователя системы';
+    public const KEY = '1.1.3';
+    public const DESCRIPTION = 'Позволяет заблокировать любого пользователя системы';
 
-    public function getKey(): string
+    public static function getKey(): string
     {
-        return $this->key;
+        return self::KEY;
     }
 
-    public function getDescription(): string
+    public static function getDescription(): string
     {
-        return $this->description;
+        return self::DESCRIPTION;
     }
 }

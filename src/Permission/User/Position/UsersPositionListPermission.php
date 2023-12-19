@@ -6,16 +6,16 @@ use HelpDev\Permission\PermissionInterface;
 
 class UsersPositionListPermission implements PermissionInterface
 {
-    private string $key = '1.3.3';
-    private string $description = 'Позволяет получать список должностей';
+    public const KEY = '1.3.3';
+    public const DESCRIPTION = 'Позволяет получать список должностей';
 
-    public function getKey(): string
+    public static function getKey(): string
     {
-        return $this->key;
+        return self::KEY;
     }
 
-    public function getDescription(): string
+    public static function getDescription(): string
     {
-        return $this->description;
+        return self::DESCRIPTION;
     }
 }

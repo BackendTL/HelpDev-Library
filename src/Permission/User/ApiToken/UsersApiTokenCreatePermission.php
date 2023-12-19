@@ -6,16 +6,16 @@ use HelpDev\Permission\PermissionInterface;
 
 class UsersApiTokenCreatePermission implements PermissionInterface
 {
-    private string $key = '1.5.2';
-    private string $description = 'Позволяет создавать новые АПИ токены';
+    public const KEY = '1.5.2';
+    public const DESCRIPTION = 'Позволяет создавать новые АПИ токены';
 
-    public function getKey(): string
+    public static function getKey(): string
     {
-        return $this->key;
+        return self::KEY;
     }
 
-    public function getDescription(): string
+    public static function getDescription(): string
     {
-        return $this->description;
+        return self::DESCRIPTION;
     }
 }

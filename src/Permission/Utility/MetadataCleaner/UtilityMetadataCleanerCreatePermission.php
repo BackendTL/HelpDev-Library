@@ -6,16 +6,16 @@ use HelpDev\Permission\PermissionInterface;
 
 class UtilityMetadataCleanerCreatePermission implements PermissionInterface
 {
-    private string $key = '2.1.1';
-    private string $description = 'Позволяет создать новый запрос на чистку';
+    public const KEY = '2.1.1';
+    public const DESCRIPTION = 'Позволяет создать новый запрос на чистку';
 
-    public function getKey(): string
+    public static function getKey(): string
     {
-        return $this->key;
+        return self::KEY;
     }
 
-    public function getDescription(): string
+    public static function getDescription(): string
     {
-        return $this->description;
+        return self::DESCRIPTION;
     }
 }

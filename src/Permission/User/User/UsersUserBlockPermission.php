@@ -6,16 +6,16 @@ use HelpDev\Permission\PermissionInterface;
 
 class UsersUserBlockPermission implements PermissionInterface
 {
-    private string $key = '1.1.1';
-    private string $description = 'Позволяет просматривать список всех пользователей системы';
+    public const KEY = '1.1.1';
+    public const DESCRIPTION = 'Позволяет просматривать список всех пользователей системы';
 
-    public function getKey(): string
+    public static function getKey(): string
     {
-        return $this->key;
+        return self::KEY;
     }
 
-    public function getDescription(): string
+    public static function getDescription(): string
     {
-        return $this->description;
+        return self::DESCRIPTION;
     }
 }
