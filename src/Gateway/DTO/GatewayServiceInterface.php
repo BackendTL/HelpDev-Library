@@ -13,6 +13,7 @@ interface GatewayServiceInterface
     public const SERVICE_CONTENT_PARSER = 'content_parser_service_api';
     public const SERVICE_NODEJS_PARSER = 'nodejs_parser_api';
     public const SERVICE_IMAGE_PROCESSING = 'image_processing_api';
+    public const SERVICE_TRANSLATOR = 'translator_api';
 
     public function getId(): int;
 
