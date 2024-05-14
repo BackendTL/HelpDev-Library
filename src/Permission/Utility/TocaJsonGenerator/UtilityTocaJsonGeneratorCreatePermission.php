@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class UtilityTocaJsonGeneratorCreatePermission implements PermissionInterface
 {
     public const KEY = '2.2.1';
-    public const DESCRIPTION = 'Позволяет создать новую генерацию Json для Toca';
+    public const DESCRIPTION = 'Создать новую генерацию Json для Toca';
 
     public static function getKey(): string
     {

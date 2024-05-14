@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class UtilityMetadataCleanerCreatePermission implements PermissionInterface
 {
     public const KEY = '2.1.1';
-    public const DESCRIPTION = 'Позволяет создать новый запрос на чистку';
+    public const DESCRIPTION = 'Создавать новые запросы на чистку';
 
     public static function getKey(): string
     {

@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class UsersApiTokenListPermission implements PermissionInterface
 {
     public const KEY = '1.5.1';
-    public const DESCRIPTION = 'Позволяет просматривать список АПИ токены';
+    public const DESCRIPTION = 'Просматривать список АПИ токенов';
 
     public static function getKey(): string
     {

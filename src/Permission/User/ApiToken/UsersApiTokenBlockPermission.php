@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class UsersApiTokenBlockPermission implements PermissionInterface
 {
     public const KEY = '1.5.5';
-    public const DESCRIPTION = 'Позволяет заблокировать АПИ токен';
+    public const DESCRIPTION = 'Блокировать АПИ токен';
 
     public static function getKey(): string
     {

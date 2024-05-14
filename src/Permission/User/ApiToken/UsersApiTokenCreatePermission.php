@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class UsersApiTokenCreatePermission implements PermissionInterface
 {
     public const KEY = '1.5.2';
-    public const DESCRIPTION = 'Позволяет создавать новые АПИ токены';
+    public const DESCRIPTION = 'Создавать новые АПИ токены';
 
     public static function getKey(): string
     {

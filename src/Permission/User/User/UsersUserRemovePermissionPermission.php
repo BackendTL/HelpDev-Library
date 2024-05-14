@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class UsersUserRemovePermissionPermission implements PermissionInterface
 {
     public const KEY = '1.1.6';
-    public const DESCRIPTION = 'Позволяет удалить любому пользователю разрешения';
+    public const DESCRIPTION = 'Удалить любому пользователю разрешения';
 
     public static function getKey(): string
     {

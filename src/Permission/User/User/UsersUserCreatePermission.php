@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class UsersUserCreatePermission implements PermissionInterface
 {
     public const KEY = '1.1.2';
-    public const DESCRIPTION = 'Позволяет создавать новых пользователей системы';
+    public const DESCRIPTION = 'Создавать новых пользователей';
 
     public static function getKey(): string
     {

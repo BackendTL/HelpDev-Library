@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class ParserContentValidationErrorIgnorePermission implements PermissionInterface
 {
     public const KEY = '3.1.5';
-    public const DESCRIPTION = 'Позволяет игнорить ошибки валидации';
+    public const DESCRIPTION = 'Игнорить ошибки валидации';
 
     public static function getKey(): string
     {

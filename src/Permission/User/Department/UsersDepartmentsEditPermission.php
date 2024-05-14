@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class UsersDepartmentsEditPermission implements PermissionInterface
 {
     public const KEY = '1.2.3';
-    public const DESCRIPTION = 'Позволяет редактировать отделы';
+    public const DESCRIPTION = 'Редактировать отделы';
 
     public static function getKey(): string
     {
