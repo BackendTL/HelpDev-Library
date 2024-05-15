@@ -4,10 +4,10 @@ namespace HelpDev\Permission\Parser\ContentParser;
 
 use HelpDev\Permission\PermissionInterface;
 
-class ParserContentValidationErrorIgnorePermission implements PermissionInterface
+class ParserContentParsingChangeExecutorPermission implements PermissionInterface
 {
-    public const KEY = '3.1.5';
-    public const DESCRIPTION = 'Игнорить ошибки валидации';
+    public const KEY = '3.1.12';
+    public const DESCRIPTION = 'Сменить исполнителя парсинга';
 
     public static function getKey(): string
     {

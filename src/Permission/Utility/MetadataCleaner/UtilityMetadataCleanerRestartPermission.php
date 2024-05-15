@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class UtilityMetadataCleanerRestartPermission implements PermissionInterface
 {
     public const KEY = '2.1.4';
-    public const DESCRIPTION = 'Позволяет перезапустить чистку';
+    public const DESCRIPTION = 'Перезапускать чистки';
 
     public static function getKey(): string
     {

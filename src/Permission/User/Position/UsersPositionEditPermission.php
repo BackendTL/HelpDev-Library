@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class UsersPositionEditPermission implements PermissionInterface
 {
     public const KEY = '1.3.2';
-    public const DESCRIPTION = 'Позволяет редактировать должности';
+    public const DESCRIPTION = 'Редактировать должности';
 
     public static function getKey(): string
     {

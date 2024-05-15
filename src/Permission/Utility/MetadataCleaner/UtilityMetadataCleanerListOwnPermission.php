@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class UtilityMetadataCleanerListOwnPermission implements PermissionInterface
 {
     public const KEY = '2.1.3';
-    public const DESCRIPTION = 'Позволяет просматривать и скачивать только собственные запросы на чистку';
+    public const DESCRIPTION = 'Просматривать и скачивать только собственные запросы на чистку';
 
     public static function getKey(): string
     {

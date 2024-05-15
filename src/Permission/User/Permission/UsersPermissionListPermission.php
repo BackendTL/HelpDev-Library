@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class UsersPermissionListPermission implements PermissionInterface
 {
     public const KEY = '1.4.3';
-    public const DESCRIPTION = 'Позволяет просматривать список разрешения';
+    public const DESCRIPTION = 'Просматривать список разрешений';
 
     public static function getKey(): string
     {

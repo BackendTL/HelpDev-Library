@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class UsersUserListPermission implements PermissionInterface
 {
     public const KEY = '1.1.3';
-    public const DESCRIPTION = 'Позволяет заблокировать любого пользователя системы';
+    public const DESCRIPTION = 'Заблокировать любого пользователя';
 
     public static function getKey(): string
     {

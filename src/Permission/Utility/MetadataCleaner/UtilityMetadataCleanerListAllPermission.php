@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class UtilityMetadataCleanerListAllPermission implements PermissionInterface
 {
     public const KEY = '2.1.2';
-    public const DESCRIPTION = 'Позволяет просматривать и скачивать результирующие архивы всех запросов на чистку';
+    public const DESCRIPTION = 'Просматривать и скачивать результирующие архивы всех запросов на чистку';
 
     public static function getKey(): string
     {

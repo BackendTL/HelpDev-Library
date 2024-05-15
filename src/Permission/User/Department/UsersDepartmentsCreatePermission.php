@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class UsersDepartmentsCreatePermission implements PermissionInterface
 {
     public const KEY = '1.2.1';
-    public const DESCRIPTION = 'Позволяет создать новый отдел';
+    public const DESCRIPTION = 'Создавать новые отделы';
 
     public static function getKey(): string
     {

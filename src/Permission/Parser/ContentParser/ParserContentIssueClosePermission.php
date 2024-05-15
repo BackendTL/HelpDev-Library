@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class ParserContentIssueClosePermission implements PermissionInterface
 {
     public const KEY = '3.1.3';
-    public const DESCRIPTION = 'Позволяет закрыть issue';
+    public const DESCRIPTION = 'Закрывать issue';
 
     public static function getKey(): string
     {

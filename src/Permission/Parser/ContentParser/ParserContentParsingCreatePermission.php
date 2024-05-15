@@ -7,7 +7,7 @@ use HelpDev\Permission\PermissionInterface;
 class ParserContentParsingCreatePermission implements PermissionInterface
 {
     public const KEY = '3.1.2';
-    public const DESCRIPTION = 'Позволяет создать новый парсинг';
+    public const DESCRIPTION = 'Создавать новые парсинги';
 
     public static function getKey(): string
     {
