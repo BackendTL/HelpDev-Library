@@ -6,7 +6,7 @@ use HelpDev\Permission\PermissionInterface;
 
 class UtilityLocalizationListAllPermission implements PermissionInterface
 {
-    public const KEY = '3.4.2';
+    public const KEY = '2.3.2';
     public const DESCRIPTION = 'Просматривать и скачивать результирующие архивы всех запросов на локализацию';
 
     public static function getKey(): string

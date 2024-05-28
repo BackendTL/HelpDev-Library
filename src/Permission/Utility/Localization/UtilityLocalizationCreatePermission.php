@@ -6,7 +6,7 @@ use HelpDev\Permission\PermissionInterface;
 
 class UtilityLocalizationCreatePermission implements PermissionInterface
 {
-    public const KEY = '3.4.1';
+    public const KEY = '2.3.1';
     public const DESCRIPTION = 'Создавать новые запросы на локализацию';
 
     public static function getKey(): string
