@@ -15,6 +15,7 @@ interface GatewayServiceInterface
     public const SERVICE_IMAGE_PROCESSING = 'image_processing_api';
     public const SERVICE_TRANSLATOR = 'translator_api';
     public const SERVICE_LOCALIZATION = 'localization_api';
+    public const SERVICE_MERCURE = 'mercure_api';
 
     public function getId(): int;
 
@@ -27,5 +28,4 @@ interface GatewayServiceInterface
     public function getLatestHealthCheckedAt(): ?DateTimeImmutable;
 
     public function getHealthcheckPath(): ?string;
-
 }
