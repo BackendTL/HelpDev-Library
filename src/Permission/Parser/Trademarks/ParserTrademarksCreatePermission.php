@@ -4,9 +4,9 @@ namespace HelpDev\Permission\Utility\Localization;
 
 use HelpDev\Permission\PermissionInterface;
 
-class UtilityTrademarkCreatePermission implements PermissionInterface
+class ParserTrademarksCreatePermission implements PermissionInterface
 {
-    public const KEY = '2.4.1';
+    public const KEY = '3.2.2';
     public const DESCRIPTION = 'Создавать новые запросы на торговые знаки';
 
     public static function getKey(): string
