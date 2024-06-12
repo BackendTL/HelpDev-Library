@@ -4,10 +4,10 @@ namespace HelpDev\Permission\Parser\Trademarks;
 
 use HelpDev\Permission\PermissionInterface;
 
-class ParserTrademarksListAllPermission implements PermissionInterface
+class ParserTrademarksCreatePermission implements PermissionInterface
 {
-    public const KEY = '3.2.1';
-    public const DESCRIPTION = 'Получить список всех трейдмарков';
+    public const KEY = '3.2.2';
+    public const DESCRIPTION = 'Создавать новые запросы на торговые знаки';
 
     public static function getKey(): string
     {
