@@ -1,6 +1,6 @@
 <?php
 
-namespace HelpDev\Permission\Utility\Localization;
+namespace HelpDev\Permission\Parser\Trademarks;
 
 use HelpDev\Permission\PermissionInterface;
 
